@@ -1,0 +1,182 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    min-width: 320px;
+    background-color: #e3d5ff;
+    min-height: 100%;
+    font-family: "Montserrat", serif;
+}
+
+
+/* ---------------------------HEADER--------------------------- */
+.header
+{
+    background-color:rgb(132, 106, 171);
+    color: white;
+    display: grid;
+    grid-template-columns: 30% auto;
+    padding: 15px;
+}
+
+.header__logo__block
+{
+    float: left;
+    width: 40%;
+    align-self: center;
+}
+
+.header__logo
+{
+    width: 170%;
+}
+
+.header__info__block
+{
+    justify-self: right;
+    align-self: center;
+}
+
+.header__info__p
+{
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0;
+    width: 100%;
+    margin-left: 0;
+}
+
+
+
+/* ---------------------------MAIN--------------------------- */
+.main
+{
+    color: black;
+    padding-bottom: 100px;
+}
+
+.main-form
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 4%;
+    margin-right: 4%;
+    background-color: rgb(255, 255, 255);
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-top: 1em;
+}
+
+.main-form-label
+{
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+.main-form-textarea
+{
+    font-size: 1em;
+    width: 50%;
+    margin-bottom: 2em;
+    max-width: 100%;
+}
+
+.main-form-button
+{
+    width: 200px;
+    padding: 1em;
+    background-color: rgb(132, 106, 171);
+    outline: none;
+    border: 0;
+    transition: .3s;
+    color: white;
+    font-family: "Montserrat", serif;
+}
+
+.main-form-button:hover
+{
+    background-color: rgb(115, 80, 169);
+}
+
+
+/* ---------------------------FOOTER--------------------------- */
+.footer
+{
+    background-color: rgb(132, 106, 171);
+    color: white;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    display: grid;
+    align-items: center;
+    padding: 10px;
+}
+
+.footer__p
+{
+    
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+}
+
+/* ---------------------------RESULT--------------------------- */
+
+.div
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 4%;
+    margin-right: 4%;
+    background-color: white;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-top: 1em;
+}
+
+.main-text
+{
+    background-color: white;
+    word-break: break-all;
+    padding: 1em;
+    border: 3px solid rgb(132, 106, 171);
+}
+
+table
+{
+    padding: 0;
+    background-color: white;
+    border-collapse: collapse;
+}
+
+td
+{
+    border: 5px solid #bbbfc9;
+    padding: 0.5em;
+}
+
+.td
+{
+    width: 50%;
+}
+
+.td-data
+{
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding-bottom: 3px;
+    border-bottom: 1px solid white;
+}
+
+a:hover {
+    border: none;
+    transition: 1s;
+}
